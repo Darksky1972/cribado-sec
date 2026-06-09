@@ -12,10 +12,10 @@ import os
 import pandas as pd
 import streamlit as st
 
-from sec_screener.client import SECClient, SECError
-from sec_screener.frames import attach_tickers, build_dataset
-from sec_screener.metrics import METRICS, RATIOS, metrics_needed_for
-from sec_screener.screen import Filter, add_ratios, apply_filters
+from client import SECClient, SECError
+from frames import attach_tickers, build_dataset
+from metrics import METRICS, RATIOS, metrics_needed_for
+from screen import Filter, add_ratios, apply_filters
 
 st.set_page_config(page_title="Cribado financiero SEC", page_icon="📊", layout="wide")
 

@@ -15,8 +15,8 @@ from collections.abc import Callable, Iterable
 
 import pandas as pd
 
-from .client import SECClient
-from .metrics import METRICS, Metric
+from client import SECClient
+from metrics import METRICS, Metric
 
 
 def period_string(year: int, quarter: int | None, kind: str) -> str:

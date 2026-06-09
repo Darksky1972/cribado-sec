@@ -7,7 +7,7 @@ from dataclasses import dataclass
 import numpy as np
 import pandas as pd
 
-from .metrics import RATIOS
+from metrics import RATIOS
 
 
 def add_ratios(df: pd.DataFrame, ratio_keys: list[str]) -> pd.DataFrame:
