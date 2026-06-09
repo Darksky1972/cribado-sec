@@ -1,0 +1,10 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+streamlit_test.log
+*.xlsx
+*.csv
+
+# NUNCA subir secretos (tu email de contacto va aquí en local)
+.streamlit/secrets.toml
